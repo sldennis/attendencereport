@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		95204CF319E23D5B0025A9CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95204CF219E23D5B0025A9CB /* AppDelegate.swift */; };
-		95204CF519E23D5B0025A9CB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95204CF419E23D5B0025A9CB /* FirstViewController.swift */; };
-		95204CF719E23D5B0025A9CB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95204CF619E23D5B0025A9CB /* SecondViewController.swift */; };
 		95204CFA19E23D5B0025A9CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95204CF819E23D5B0025A9CB /* Main.storyboard */; };
 		95204CFC19E23D5B0025A9CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95204CFB19E23D5B0025A9CB /* Images.xcassets */; };
 		95204CFF19E23D5B0025A9CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95204CFD19E23D5B0025A9CB /* LaunchScreen.xib */; };
 		95204D0B19E23D5B0025A9CB /* AttendenceReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95204D0A19E23D5B0025A9CB /* AttendenceReportTests.swift */; };
+		956E18D319E24CA300540D76 /* AttendenceReport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 956E18D119E24CA300540D76 /* AttendenceReport.xcdatamodeld */; };
+		956E18D619E256B300540D76 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E18D519E256B300540D76 /* Report.swift */; };
+		956E18D819E256B400540D76 /* Attendence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E18D719E256B400540D76 /* Attendence.swift */; };
+		956E18DA19E256B400540D76 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E18D919E256B400540D76 /* Person.swift */; };
+		956E18DC19E256B400540D76 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E18DB19E256B400540D76 /* Event.swift */; };
+		956E18DE19E256B400540D76 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E18DD19E256B400540D76 /* Group.swift */; };
+		956E18E419E25BD400540D76 /* GroupListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E18E319E25BD400540D76 /* GroupListTableViewController.swift */; };
+		956E18E619E25C9600540D76 /* EventListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E18E519E25C9600540D76 /* EventListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +36,20 @@
 		95204CED19E23D5B0025A9CB /* AttendenceReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendenceReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95204CF119E23D5B0025A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95204CF219E23D5B0025A9CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95204CF419E23D5B0025A9CB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		95204CF619E23D5B0025A9CB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		95204CF919E23D5B0025A9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95204CFB19E23D5B0025A9CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		95204CFE19E23D5B0025A9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		95204D0419E23D5B0025A9CB /* AttendenceReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendenceReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95204D0919E23D5B0025A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95204D0A19E23D5B0025A9CB /* AttendenceReportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceReportTests.swift; sourceTree = "<group>"; };
+		956E18D219E24CA300540D76 /* AttendenceReport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AttendenceReport.xcdatamodel; sourceTree = "<group>"; };
+		956E18D519E256B300540D76 /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		956E18D719E256B400540D76 /* Attendence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendence.swift; sourceTree = "<group>"; };
+		956E18D919E256B400540D76 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		956E18DB19E256B400540D76 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		956E18DD19E256B400540D76 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		956E18E319E25BD400540D76 /* GroupListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListTableViewController.swift; sourceTree = "<group>"; };
+		956E18E519E25C9600540D76 /* EventListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +91,15 @@
 		95204CEF19E23D5B0025A9CB /* AttendenceReport */ = {
 			isa = PBXGroup;
 			children = (
+				956E18D419E2569600540D76 /* NSManagedObjects */,
 				95204CF219E23D5B0025A9CB /* AppDelegate.swift */,
-				95204CF419E23D5B0025A9CB /* FirstViewController.swift */,
-				95204CF619E23D5B0025A9CB /* SecondViewController.swift */,
+				956E18E319E25BD400540D76 /* GroupListTableViewController.swift */,
+				956E18E519E25C9600540D76 /* EventListTableViewController.swift */,
 				95204CF819E23D5B0025A9CB /* Main.storyboard */,
 				95204CFB19E23D5B0025A9CB /* Images.xcassets */,
 				95204CFD19E23D5B0025A9CB /* LaunchScreen.xib */,
 				95204CF019E23D5B0025A9CB /* Supporting Files */,
+				956E18D119E24CA300540D76 /* AttendenceReport.xcdatamodeld */,
 			);
 			path = AttendenceReport;
 			sourceTree = "<group>";
@@ -113,6 +127,18 @@
 				95204D0919E23D5B0025A9CB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		956E18D419E2569600540D76 /* NSManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				956E18DD19E256B400540D76 /* Group.swift */,
+				956E18DB19E256B400540D76 /* Event.swift */,
+				956E18D919E256B400540D76 /* Person.swift */,
+				956E18D719E256B400540D76 /* Attendence.swift */,
+				956E18D519E256B300540D76 /* Report.swift */,
+			);
+			name = NSManagedObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95204CF719E23D5B0025A9CB /* SecondViewController.swift in Sources */,
+				956E18DE19E256B400540D76 /* Group.swift in Sources */,
+				956E18DC19E256B400540D76 /* Event.swift in Sources */,
+				956E18D319E24CA300540D76 /* AttendenceReport.xcdatamodeld in Sources */,
+				956E18E619E25C9600540D76 /* EventListTableViewController.swift in Sources */,
+				956E18D619E256B300540D76 /* Report.swift in Sources */,
+				956E18D819E256B400540D76 /* Attendence.swift in Sources */,
+				956E18DA19E256B400540D76 /* Person.swift in Sources */,
 				95204CF319E23D5B0025A9CB /* AppDelegate.swift in Sources */,
-				95204CF519E23D5B0025A9CB /* FirstViewController.swift in Sources */,
+				956E18E419E25BD400540D76 /* GroupListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AttendenceReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AttendenceReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +445,7 @@
 				95204D1019E23D5B0025A9CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95204D1119E23D5B0025A9CB /* Build configuration list for PBXNativeTarget "AttendenceReportTests" */ = {
 			isa = XCConfigurationList;
@@ -419,8 +454,22 @@
 				95204D1319E23D5B0025A9CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		956E18D119E24CA300540D76 /* AttendenceReport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				956E18D219E24CA300540D76 /* AttendenceReport.xcdatamodel */,
+			);
+			currentVersion = 956E18D219E24CA300540D76 /* AttendenceReport.xcdatamodel */;
+			path = AttendenceReport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 95204CE519E23D5B0025A9CB /* Project object */;
 }
